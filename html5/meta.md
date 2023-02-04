@@ -53,3 +53,13 @@ This means that the web page will be scaled to two times its normal size when th
 
 Note that the value of initial-scale can be any positive decimal number and it represents the zoom level as a multiplier. 
 A value of 1 represents 100% zoom (i.e., normal size), a value of 0.5 represents 50% zoom (i.e., half size), and so on.
+
+
+##**viewport-fit=cover**
+The viewport-fit property is a new CSS property that was introduced in Safari iOS 11.3 and later, and it provides a way to control how the 
+layout viewport (the part of the web page that's visible on the screen) fits within the visual viewport (the actual size of the device's screen).
+
+The value cover for viewport-fit tells the browser to scale the layout viewport so that it covers the entire visual viewport. This can result in some of the layout viewport being cropped or hidden, but it ensures that the entire screen is used to display the content of the web page.
+
+Note that viewport-fit is not yet widely supported across all browsers and devices, and it may not be supported in older browsers or on some older devices. 
+As such, it's not commonly used at this time, but it may become more widely used in the future as support for it becomes more widespread.
