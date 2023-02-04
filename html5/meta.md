@@ -63,3 +63,10 @@ The value cover for viewport-fit tells the browser to scale the layout viewport 
 
 Note that viewport-fit is not yet widely supported across all browsers and devices, and it may not be supported in older browsers or on some older devices. 
 As such, it's not commonly used at this time, but it may become more widely used in the future as support for it becomes more widespread.
+
+##Viewport
+The meta viewport gives information about the initial size of the viewport.
+
+Tip: The viewport is used by mobile devices only.
+
+**Accessibility tip: Never use maximum-scale=1.0. It prevents the user from zooming in on the website. It causes an accessibility issue.**
