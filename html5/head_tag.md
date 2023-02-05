@@ -1,4 +1,4 @@
-**head tag**
+## **head tag**
 The head tag element contains all the metadatas related to your page. All the elements put in the head are not visible in the window of the browser.
 
 A lot of metadatas exist, some specific to some CMS.
