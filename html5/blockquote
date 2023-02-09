@@ -1,0 +1,29 @@
+## **Blockquote**
+A multiline quote is called a blockquote.
+
+Type	Self-closing
+Block	No
+<!-- DO -->
+<blockquote cite="https://tools.ietf.org/html/rfc1149">
+  <p>Avian carriers can provide high delay, low
+  throughput, and low altitude service.  The
+  connection topology is limited to a single
+  point-to-point path for each carrier, used with
+  standard carriers, but many carriers can be used
+  without significant interference with each other,
+  outside of early spring.  This is because of the 3D
+  ether space available to the carriers, in contrast
+  to the 1D ether used by IEEE802.3.  The carriers
+  have an intrinsic collision avoidance system, which
+  increases availability.</p>
+</blockquote>
+<!-- DON'T -->
+<blockquote>For writing maintainable and scalable HTML documents.</blockquote>
+<!-- Blockquote with a cite reference -->
+<blockquote>
+  <p>People think focus means saying yes to the thing you’ve got to focus on. But that’s not what it means at all. It means saying no to the hundred other good ideas that there are. You have to pick carefully. I’m actually as proud of the things we haven’t done as the things I have done. Innovation is saying no to 1,000 things.
+    <cite>Steve Jobs – Apple Worldwide Developers’ Conference, 1997</cite>
+  </p>
+</blockquote>
+Resources
+blockquote: The Block Quotation element - HTML: Hypertext Markup Language | MDN
