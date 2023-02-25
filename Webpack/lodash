@@ -1,0 +1,13 @@
+npm install lodash
+Wait for the installation process to complete.
+Once the installation is complete, you can start using Lodash in your JavaScript code by including the following line at the top of your file:
+
+javascript
+Copy code
+const _ = require('lodash');
+Alternatively, if you are using ECMAScript modules, you can use the following syntax:
+
+javascript
+Copy code
+import _ from 'lodash';
+That's it! You should now be able to use Lodash in your JavaScript code.
