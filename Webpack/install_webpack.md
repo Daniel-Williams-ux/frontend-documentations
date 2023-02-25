@@ -50,3 +50,34 @@ Besides being a package manager, npm can be used as a simple task runner. We can
   "dev": "webpack --mode development",
   "build": "webpack --mode production"
 },
+
+
+Within the scripts property, npm allows us to reference locally installed Node.js packages by their names. We use that and the --mode flag to define dev and build tasks, which will run webpack in development (npm run dev) and production (npm run build) mode respectively.
+
+Before we test the tasks we’ve just created, let’s create a src directory and put an index.js file in it so that it contains console.log("Hello, Webpack!");. Now we can already run the dev task to start webpack in development mode:
+
+$ npm run dev
+
+> learn-webpack@1.0.0 dev C:\WEBDEV\learn-webpack
+> webpack --mode development
+
+[webpack-cli] Compilation finished
+asset main.js 874 bytes [emitted] (name: main)
+./src/index.js 31 bytes [built] [code generated]
+webpack 5.9.0 compiled successfully in 122 ms
+
+
+As I mentioned before, webpack sets the default entry point to ./src/index.js and the default output to ./dist/main.js. So what webpack does when we run the dev task is to get the source code from index.js file and bundle the final code in a main.js file.
+
+Great! It works as expected. But to verify that we get the correct output, we need to display the result in the browser. To do that, let’s create an index.html file in the dist directory:
+
+<!doctype html>
+<html>
+  <head>
+    <title>Getting Started With Webpack</title>
+  </head>
+  <body>
+    <script src="main.js"></script>
+  </body>
+</html>
+Now, if we open the file in the browser, we should see the Hello, Webpack! message in the console.
