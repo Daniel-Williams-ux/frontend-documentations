@@ -15,8 +15,7 @@ This is useful if you want to quickly generate a package.json file without havin
 
 For example, to create a new project with default values, you can open your terminal, navigate to the directory where you want to create the project, and type:
 
-csharp
-Copy code
+
 npm init -y
 This will create a package.json file in the current directory with default values. You can then modify the values in the package.json file as needed for your project.
 
