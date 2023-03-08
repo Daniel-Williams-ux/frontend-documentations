@@ -10,3 +10,17 @@ const Btn = () => {
 }
 
 export default Btn;
+
+
+const Btn = () => {
+  const clickHandler = () => {
+    console.log('mouse hovered')
+  }
+  return (
+      <button onMouseOver={clickHandler}>
+        Click me
+      </button>
+  )
+}
+
+export default Btn;
