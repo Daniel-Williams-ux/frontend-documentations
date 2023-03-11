@@ -1,0 +1,9 @@
+Profile the load of the application and note which Component is the longest to render after App, take a screenshot
+
+
+Open your application in Chrome and open the DevTools panel.
+Select the "Performance" tab and click the "Record" button to start recording.
+Interact with your application to trigger different components to render.
+After you've finished interacting with your application, click the "Stop" button to stop recording.
+Use the zoom and pan controls to zoom in on the timeline and find the component that takes the longest to render after App. 
+You can hover over a component to see its name and how long it took to render.
