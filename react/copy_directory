@@ -1,1 +1,3 @@
 cp -r task_4/dashboard task_5/dashboard
+
+cp -r 0x02-react_props/task_5/dashboard 0x03-React_component/task_0/dashboard
